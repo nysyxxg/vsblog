@@ -1,0 +1,17 @@
+node -v
+npm -v
+vue -V
+
+npm install
+npm install -g vue-cli
+npm i element-ui -S
+
+npm install element-ui -save
+
+然后再次输入运行命令：cnpm run dev   （这是vue-cli2.x版的运行命令， npm run dev
+
+如果是cli3.x，则命令为：cnpm run serve）  npm run serve
+
+npm install --save github-markdown-css
+
+ npm run build

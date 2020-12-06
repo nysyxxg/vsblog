@@ -33,7 +33,7 @@ CREATE TABLE `m_blog` (
   `created` datetime NOT NULL ON UPDATE CURRENT_TIMESTAMP,
   `status` tinyint(4) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -73,7 +73,7 @@ CREATE TABLE `m_user` (
 
 LOCK TABLES `m_user` WRITE;
 /*!40000 ALTER TABLE `m_user` DISABLE KEYS */;
-INSERT INTO `m_user` VALUES (1,'admin','https://vuejs.org/images/logo.png','iblog.run@foxmail.com','eedf8509cd30c0a7f13a3f78d2b11ae4',0,'2020-04-20 10:44:01',NULL);
+INSERT INTO `m_user` VALUES (1,'admin','https://vuejs.org/images/logo.png','iblog.run@foxmail.com','e10adc3949ba59abbe56e057f20f883e',0,'2020-04-20 10:44:01',NULL);
 /*!40000 ALTER TABLE `m_user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
